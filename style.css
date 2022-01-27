@@ -212,6 +212,7 @@ a {
   border: 6px solid;
   border-radius: 50%;
   border-color: #fff;
+  width:180px;
 }
 .testimonial h2 {
   font-family: "Great Vibes";
