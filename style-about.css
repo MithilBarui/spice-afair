@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: both;
+}
+
+.header {
+  background-color: #16191e;
+  padding: 20px 0 20px 0;
+  border-bottom: 3px solid #999966;
+}
+
+.menu {
+  float: right;
+}
+
+.menu li {
+  float: left;
+  list-style: none;
+  padding-right: 25px;
+  text-transform: uppercase;
+  padding-top: 26px;
+  padding-right: 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+.menu a:hover {
+  color: #ffb52a;
+  border-bottom: 2px solid;
+  border-color: #ffb52a;
+}
+
+.banner {
+  background-image: url(../image/banner-about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Playfair Display serif";
+  padding-top: 15px;
+  font-size: 46px;
+  line-height: 50px;
+}
+
+.banner h2,
+.master h2,
+.our-master h2 {
+  color: #969664;
+  font-family: "Great Vibes";
+  font-size: 40px;
+  line-height: 44px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.our-master h2, h3{
+  text-align: center;
+}
+.our-master h2{
+  font-size: 30px;
+}
+.our-master h3{
+  font-family: "lato";
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.our-master {
+  background-color: #ead6af;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.chef {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 80px 0;
+}
+.master img {
+  width: 100%;
+}
+.master {
+  padding: 0 10px 0 10px;
+}
+.chef-details {
+  background-color: #fff;
+  padding: 20px 0;
+}
+.chef-details h2{
+  font-size: 18px;
+  line-height: 22px;
+}
+.chef-details h3{
+  font-size: 18px;
+  font-family: "lato";
+}
+.read-more{
+  text-align: center;
+}
+.read-more a{
+  text-transform: uppercase;
+  background-color: #ab3f1b;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-family: 'Lato';
+  font-weight: 600;
+}
+.read-more a:hover{
+    background-color: #ffb52a;
+    color: #000;
+    font-weight: 600;
+}
+.history {
+  background-image: url(../image/banner3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 90px;
+}
+.history-div{
+  background-color: #fff;
+  width: 585px;
+  float: right;
+  height: 585px;
+  text-align: center;
+}
+.history-div h2{
+  font-family: 'Great Vibes';
+    color: #999966;
+    padding: 40px 0 20px 0;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.history-div h3{
+  font-family: 'Lato';
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.history-div p{
+    padding: 40px 50px 84px 50px;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    line-height: 20px;
+}
+
+.category {
+  background-color: #ead6af;
+}
+.category-div {
+  text-align: center;
+  padding: 40px;
+}
+.category-div h4 {
+  color: #777704;
+}
+.category-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  background-color: #0b0d0f;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 62px;
+}
+.footer-div p {
+  color: #fff;
+  font-family: "ubuntu";
+}
+.footer-div img {
+  padding: 20px 0;
+}
+.reservation {
+  background-color: #ab3f1b;
+  padding: 10px 28px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Ubuntu";
+  border-radius: 6px;
+}
+.reservation:hover{
+  background-color: #ffb52a;
+  color: #000;
+  font-weight: 600;
+}
+.follow{
+  padding: 30px 48px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Lato";
+  font-size: 18px;
+}
+.icon {
+  text-align: center;
+  padding-left: 20px;
+}
+.icon a {
+  color: #fff;
+  padding-right: 20px;
+  font-size: 18px;
+}
+.phone {
+  color: #999966;
+  padding-bottom: 25px;
+  font-family: "lato";
+}
+.footer-div h3 {
+  color: #fff;
+  font-weight: 600;
+  font-family: "lato";
+  padding-bottom: 20px;
+}
+.footer-div h5 {
+  color: #fff;
+  font-family: "lato";
+}
+.copy-right {
+  background-color: #16191e;
+  padding: 10px 0;
+}
+.copy-right h5 {
+  color: #fff;
+  text-align: center;
+  font-family: "ubuntu";
+  font-size: 10px;
+  font-weight: 400;
+}

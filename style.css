@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.header {
+  background-color: #16191e;
+  padding: 20px 0 20px 0;
+  border-bottom: 3px solid #999966;
+}
+
+.menu {
+  float: right;
+}
+
+.menu li {
+  float: left;
+  list-style: none;
+  padding-right: 25px;
+  text-transform: uppercase;
+  padding-top: 26px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+.menu a:hover {
+  color: #999966;
+  border-bottom: 2px solid;
+  border-color: #999966;
+}
+
+.banner {
+  background-image: url(../image/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Playfair Display serif";
+  padding-top: 15px;
+  font-size: 42px;
+  line-height: 50px;
+}
+
+.banner h2 {
+  color: #969664;
+  font-family: "Great Vibes";
+  font-size: 40px;
+  line-height: 44px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.banner p {
+  color: #fff;
+  padding-top: 15px;
+  font-family: 'Lato';
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.book {
+  background-color: #a72a00;
+  padding: 14px 28px;
+  margin-top: 50px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+}
+.book:hover {
+  background-color: #ffb52a;
+  color: #000;
+  font-weight: 600;
+}
+.about {
+  background-color: #ead6af;
+}
+.about-us img {
+  float: left;
+  padding: 66px 0 66px 294px;
+}
+.about-us h2 {
+  padding: 200px 0 0 66px;
+  font-family: "Great Vibes";
+  display: inline-block;
+  font-size: 35px;
+  text-transform: capitalize;
+  color: #999966;
+}
+.about-us p {
+  padding: 25px 0 60px 650px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Playfair Display serif";
+}
+.about-us a {
+  background-color: #ab3f1b;
+  padding: 12px 24px;
+  margin-left: 64px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.about-us a:hover {
+  background-color: #ffb52a;
+  color: #000;
+  font-weight: 600;
+}
+.gallary {
+  padding: 38px 0 32px 0;
+}
+.gallary h2 {
+  font-family: "Great Vibes";
+  text-align: center;
+  font-size: 35px;
+  text-transform: capitalize;
+  color: #999966;
+}
+.gallary h3 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 35px;
+  text-transform: capitalize;
+  color: #000;
+  padding-top: 26px;
+}
+.plate {
+  padding-top: 50px;
+}
+.plate-view {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.plate-image {
+  position: relative;
+  margin-right: 14px;
+}
+.plus-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000a6;
+  padding: 154px;
+  opacity: 0;
+}
+.plus-icon:hover {
+  opacity: 1;
+}
+.testimonial {
+  background-image: url(../image/banner2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 46px;
+}
+
+.testimonial div {
+  margin: 0;
+  width: 100%;
+}
+.user {
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 50px 0;
+}
+.user-photo {
+  border: 6px solid;
+  border-radius: 50%;
+  border-color: #fff;
+}
+.testimonial h2 {
+  font-family: "Great Vibes";
+  text-align: center;
+  font-size: 35px;
+  text-transform: capitalize;
+  color: #999966;
+}
+.testimonial h3 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 30px 0 50px 0;
+}
+.user p {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 20px 0 20px 0;
+}
+.user h4 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 14px 0 30px 0;
+}
+.category {
+  background-color: #ead6af;
+}
+.category-div {
+  text-align: center;
+  padding: 40px;
+}
+.category-div h4 {
+  color: #777704;
+}
+.category-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  background-color: #0b0d0f;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 62px;
+}
+.footer-div p {
+  color: #fff;
+  font-family: "ubuntu";
+}
+.footer-div img {
+  padding: 20px 0;
+}
+.reservation {
+  background-color: #ab3f1b;
+  padding: 10px 28px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Ubuntu";
+  border-radius: 6px;
+}
+.reservation:hover{
+    background-color: #ffb52a;
+    color: #000;
+    font-weight: 600;
+}
+.follow {
+  padding: 30px 48px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Lato";
+  font-size: 18px;
+}
+.icon {
+  text-align: center;
+  padding-left: 20px;
+}
+.icon a {
+  color: #fff;
+  padding-right: 20px;
+  font-size: 18px;
+}
+.phone {
+  color: #999966;
+  padding-bottom: 25px;
+  font-family: "lato";
+}
+.footer-div h3 {
+  color: #fff;
+  font-weight: 600;
+  font-family: "lato";
+  padding-bottom: 20px;
+}
+.footer-div h5 {
+  color: #fff;
+  font-family: "lato";
+}
+.copy-right{
+    background-color: #16191e;
+    padding: 10px 0;
+}
+.copy-right h5{
+    color: #fff;
+    text-align: center;
+    font-family: "ubuntu";
+    font-size: 10px;
+    font-weight: 400;
+}
