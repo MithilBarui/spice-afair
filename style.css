@@ -62,7 +62,7 @@ a {
 }
 
 .banner {
-  background-image: url(../image/banner.png);
+  background-image: url(banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -191,7 +191,7 @@ a {
   opacity: 1;
 }
 .testimonial {
-  background-image: url(../image/banner2.jpg);
+  background-image: url(banner2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
