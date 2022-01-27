@@ -62,7 +62,7 @@ a {
 }
 
 .banner {
-  background-image: url(../image/banner-about.jpg);
+  background-image: url(banner-about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -146,7 +146,7 @@ a {
     font-weight: 600;
 }
 .history {
-  background-image: url(../image/banner3.png);
+  background-image: url(banner3.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
